@@ -1,0 +1,56 @@
+<html>
+<head>
+<link rel="stylesheet" href="test.css">
+
+
+</head>
+<body>
+    <div class="bigbox">
+        <div class="form-box">
+        <div class="title">
+        <div class="form-box">
+        <div class="item2">
+            <b>Project Exhibition-I|Team-20 </b>
+                                
+        </div>
+        </div>
+        </div>
+        <div class="box">
+            <div class="item1">
+            <div class="form-box">
+            <form   class="input-group">
+                <input type="text" id="ans" class="input-field" placeholder="The required one-word answer is" required onkeyup="this.value = this.value.toLowerCase()">
+            </form>
+             <div class="heading">
+                <p>&#9734 AUDIO BASED CAPTCHA &#9734</p>
+            </div>
+            <div class="text">
+                <p> &#9658 An audio will played below.
+                    Please listen to the audio carefully and mention what sound is being played in the box 
+                    below. Press the Load button to load an audio clip. After typing the answer press Login button.
+                </p>
+            </div>
+                    
+            <div class="p">
+                <h1>Result</h1>
+                <button>Load</button>
+                        
+            </div>  
+            <div class="audio">
+                <audio id="audio" controls >
+                <source id="mp3player"  > 
+                </audio>
+            </div>
+            
+            </div> 
+            <div class="submit-btn">
+            <button type="submit" onclick='captcha()' id='submitbtn'  class="submit-btn">Login</button>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <script src="script.js"></script>
+        </div>
+</body>
+</html>
